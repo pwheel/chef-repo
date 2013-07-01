@@ -23,7 +23,7 @@ application "racquettrack_app" do
   group "tomcat"
 
   repository "/vagrant/racquettrack-web/target/racquettrack.war"
-  revision "..."
+  #revision "..."
   scm_provider Chef::Provider::File::Deploy
 
   java_webapp do
